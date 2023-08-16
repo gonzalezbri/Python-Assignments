@@ -17,5 +17,7 @@ def eat_lunch(my_list):
                 print(f"Next I eat {my_list[i]}")
 
 hello()
-print(pack("bags", "suitcase", "backpack"))
-eat_lunch(my_list)
+print(pack("bags", "luggage", "backpacks"))
+eat_lunch([my_list])
+eat_lunch(["fish"])
+eat_lunch(["fish", "chips", "bread", "apple"])
